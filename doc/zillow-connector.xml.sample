@@ -1,0 +1,16 @@
+<!-- BEGIN_INCLUDE(zillow:get-zestimate) -->
+    <zillow:get-zestimate zpid="#[message.payload['zpid']]" rentzestimate="#[message.payload['rentzestimate']]"/>
+<!-- END_INCLUDE(zillow:get-zestimate) -->
+
+<!-- BEGIN_INCLUDE(zillow:get-chart) -->
+    <zillow:get-chart zpid="#[message.payload['zpid']]" unittype="#[message.payload['unittype']]" width="#[message.payload['width']]" height="#[message.payload['height']]" chartDuration="#[message.payload['chartDuration']]"/>
+<!-- END_INCLUDE(zillow:get-chart) -->
+
+<!-- BEGIN_INCLUDE(zillow:get-search-results) -->
+    <zillow:get-search-results zpid="#[message.payload['zpid']]" address="#[message.payload['address']]" citystatezip="#[message.payload['citystatezip']]" rentzestimate="#[message.payload['rentzestimate']]"/>
+<!-- END_INCLUDE(zillow:get-search-results) -->
+
+<!-- BEGIN_INCLUDE(zillow:get-comps) -->
+    <zillow:get-comps zpid="#[message.payload['zpid']]" count="#[message.payload['count']]" rentzestimate="#[message.payload['rentzestimate']]"/>
+<!-- END_INCLUDE(zillow:get-comps) -->
+
