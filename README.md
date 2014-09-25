@@ -1,6 +1,8 @@
 # Zillow Anypoint Connector
 
-[Connector description including destination service or application with]
+Welcome to the Mule Zillow API Connector
+
+./pom.xml: A maven project descriptor that describes how to build this module.
 
 # Mule supported versions
 Mule 3.5.x
